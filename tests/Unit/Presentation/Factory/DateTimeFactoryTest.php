@@ -13,8 +13,8 @@ namespace Presentation\Factory;
 
 use DateTimeImmutable as PhpDateTimeImmutable;
 use DateTimeZone;
-use Eluceo\iCal\Domain\ValueObject\DateTime;
-use Eluceo\iCal\Presentation\Factory\DateTimeFactory;
+use LordSimal\iCal\Domain\ValueObject\DateTime;
+use LordSimal\iCal\Presentation\Factory\DateTimeFactory;
 use PHPUnit\Framework\TestCase;
 
 class DateTimeFactoryTest extends TestCase

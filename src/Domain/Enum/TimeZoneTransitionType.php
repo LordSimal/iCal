@@ -9,7 +9,7 @@
  * with this source code in the file LICENSE.
  */
 
-namespace Eluceo\iCal\Domain\Enum;
+namespace LordSimal\iCal\Domain\Enum;
 
 final class TimeZoneTransitionType
 {

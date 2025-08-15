@@ -9,9 +9,9 @@
  * with this source code in the file LICENSE.
  */
 
-namespace Eluceo\iCal\Test\Unit\Presentation\Component\Property\Value;
+namespace LordSimal\iCal\Test\Unit\Presentation\Component\Property\Value;
 
-use Eluceo\iCal\Presentation\Component\Property\Value\IntegerValue;
+use LordSimal\iCal\Presentation\Component\Property\Value\IntegerValue;
 use PHPUnit\Framework\TestCase;
 
 class IntegerValueTest extends TestCase

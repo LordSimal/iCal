@@ -13,9 +13,9 @@ namespace Domain\Entity;
 
 use DateTimeImmutable;
 use DateTimeZone as PhpDateTimeZone;
-use Eluceo\iCal\Domain\Entity\TimeZone;
-use Eluceo\iCal\Domain\Enum\TimeZoneTransitionType;
-use Eluceo\iCal\Domain\ValueObject\TimeZoneTransition;
+use LordSimal\iCal\Domain\Entity\TimeZone;
+use LordSimal\iCal\Domain\Enum\TimeZoneTransitionType;
+use LordSimal\iCal\Domain\ValueObject\TimeZoneTransition;
 use PHPUnit\Framework\TestCase;
 
 class TimeZoneTest extends TestCase

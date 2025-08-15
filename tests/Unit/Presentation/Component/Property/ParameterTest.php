@@ -9,10 +9,10 @@
  * with this source code in the file LICENSE.
  */
 
-namespace Eluceo\iCal\Test\Unit\Presentation\Component\Property;
+namespace LordSimal\iCal\Test\Unit\Presentation\Component\Property;
 
-use Eluceo\iCal\Presentation\Component\Property\Parameter;
-use Eluceo\iCal\Presentation\Component\Property\Value\TextValue;
+use LordSimal\iCal\Presentation\Component\Property\Parameter;
+use LordSimal\iCal\Presentation\Component\Property\Value\TextValue;
 use PHPUnit\Framework\TestCase;
 
 class ParameterTest extends TestCase

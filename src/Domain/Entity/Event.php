@@ -9,18 +9,18 @@
  * with this source code in the file LICENSE.
  */
 
-namespace Eluceo\iCal\Domain\Entity;
+namespace LordSimal\iCal\Domain\Entity;
 
-use Eluceo\iCal\Domain\Enum\EventStatus;
-use Eluceo\iCal\Domain\ValueObject\Alarm;
-use Eluceo\iCal\Domain\ValueObject\Attachment;
-use Eluceo\iCal\Domain\ValueObject\Category;
-use Eluceo\iCal\Domain\ValueObject\Location;
-use Eluceo\iCal\Domain\ValueObject\Occurrence;
-use Eluceo\iCal\Domain\ValueObject\Organizer;
-use Eluceo\iCal\Domain\ValueObject\Timestamp;
-use Eluceo\iCal\Domain\ValueObject\UniqueIdentifier;
-use Eluceo\iCal\Domain\ValueObject\Uri;
+use LordSimal\iCal\Domain\Enum\EventStatus;
+use LordSimal\iCal\Domain\ValueObject\Alarm;
+use LordSimal\iCal\Domain\ValueObject\Attachment;
+use LordSimal\iCal\Domain\ValueObject\Category;
+use LordSimal\iCal\Domain\ValueObject\Location;
+use LordSimal\iCal\Domain\ValueObject\Occurrence;
+use LordSimal\iCal\Domain\ValueObject\Organizer;
+use LordSimal\iCal\Domain\ValueObject\Timestamp;
+use LordSimal\iCal\Domain\ValueObject\UniqueIdentifier;
+use LordSimal\iCal\Domain\ValueObject\Uri;
 
 class Event
 {

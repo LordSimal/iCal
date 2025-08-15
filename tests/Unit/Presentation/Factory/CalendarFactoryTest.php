@@ -9,17 +9,17 @@
  * with this source code in the file LICENSE.
  */
 
-namespace Eluceo\iCal\Test\Unit\Presentation\Factory;
+namespace LordSimal\iCal\Test\Unit\Presentation\Factory;
 
 use DateInterval;
 use DateTimeImmutable;
 use DateTimeZone;
-use Eluceo\iCal\Domain\Entity\Calendar;
-use Eluceo\iCal\Domain\Entity\Event;
-use Eluceo\iCal\Domain\ValueObject\Timestamp;
-use Eluceo\iCal\Domain\ValueObject\UniqueIdentifier;
-use Eluceo\iCal\Presentation\ContentLine;
-use Eluceo\iCal\Presentation\Factory\CalendarFactory;
+use LordSimal\iCal\Domain\Entity\Calendar;
+use LordSimal\iCal\Domain\Entity\Event;
+use LordSimal\iCal\Domain\ValueObject\Timestamp;
+use LordSimal\iCal\Domain\ValueObject\UniqueIdentifier;
+use LordSimal\iCal\Presentation\ContentLine;
+use LordSimal\iCal\Presentation\Factory\CalendarFactory;
 use PHPUnit\Framework\TestCase;
 
 class CalendarFactoryTest extends TestCase
@@ -77,7 +77,7 @@ class CalendarFactoryTest extends TestCase
     }
 
     /**
-     * @covers \Eluceo\iCal\Presentation\Factory\CalendarFactory::createCalendar
+     * @covers \LordSimal\iCal\Presentation\Factory\CalendarFactory::createCalendar
      */
     public function testRenderWithPublishedTTL(): void
     {

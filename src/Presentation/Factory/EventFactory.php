@@ -9,31 +9,31 @@
  * with this source code in the file LICENSE.
  */
 
-namespace Eluceo\iCal\Presentation\Factory;
+namespace LordSimal\iCal\Presentation\Factory;
 
 use DateInterval;
-use Eluceo\iCal\Domain\Collection\Events;
-use Eluceo\iCal\Domain\Entity\Event;
-use Eluceo\iCal\Domain\Enum\EventStatus;
-use Eluceo\iCal\Domain\ValueObject\Alarm;
-use Eluceo\iCal\Domain\ValueObject\Attachment;
-use Eluceo\iCal\Domain\ValueObject\MultiDay;
-use Eluceo\iCal\Domain\ValueObject\Occurrence;
-use Eluceo\iCal\Domain\ValueObject\Organizer;
-use Eluceo\iCal\Domain\ValueObject\SingleDay;
-use Eluceo\iCal\Domain\ValueObject\TimeSpan;
-use Eluceo\iCal\Presentation\Component;
-use Eluceo\iCal\Presentation\Component\Property;
-use Eluceo\iCal\Presentation\Component\Property\Parameter;
-use Eluceo\iCal\Presentation\Component\Property\Value\AppleLocationGeoValue;
-use Eluceo\iCal\Presentation\Component\Property\Value\BinaryValue;
-use Eluceo\iCal\Presentation\Component\Property\Value\DateTimeValue;
-use Eluceo\iCal\Presentation\Component\Property\Value\DateValue;
-use Eluceo\iCal\Presentation\Component\Property\Value\GeoValue;
-use Eluceo\iCal\Presentation\Component\Property\Value\IntegerValue;
-use Eluceo\iCal\Presentation\Component\Property\Value\ListValue;
-use Eluceo\iCal\Presentation\Component\Property\Value\TextValue;
-use Eluceo\iCal\Presentation\Component\Property\Value\UriValue;
+use LordSimal\iCal\Domain\Collection\Events;
+use LordSimal\iCal\Domain\Entity\Event;
+use LordSimal\iCal\Domain\Enum\EventStatus;
+use LordSimal\iCal\Domain\ValueObject\Alarm;
+use LordSimal\iCal\Domain\ValueObject\Attachment;
+use LordSimal\iCal\Domain\ValueObject\MultiDay;
+use LordSimal\iCal\Domain\ValueObject\Occurrence;
+use LordSimal\iCal\Domain\ValueObject\Organizer;
+use LordSimal\iCal\Domain\ValueObject\SingleDay;
+use LordSimal\iCal\Domain\ValueObject\TimeSpan;
+use LordSimal\iCal\Presentation\Component;
+use LordSimal\iCal\Presentation\Component\Property;
+use LordSimal\iCal\Presentation\Component\Property\Parameter;
+use LordSimal\iCal\Presentation\Component\Property\Value\AppleLocationGeoValue;
+use LordSimal\iCal\Presentation\Component\Property\Value\BinaryValue;
+use LordSimal\iCal\Presentation\Component\Property\Value\DateTimeValue;
+use LordSimal\iCal\Presentation\Component\Property\Value\DateValue;
+use LordSimal\iCal\Presentation\Component\Property\Value\GeoValue;
+use LordSimal\iCal\Presentation\Component\Property\Value\IntegerValue;
+use LordSimal\iCal\Presentation\Component\Property\Value\ListValue;
+use LordSimal\iCal\Presentation\Component\Property\Value\TextValue;
+use LordSimal\iCal\Presentation\Component\Property\Value\UriValue;
 use Generator;
 use UnexpectedValueException;
 

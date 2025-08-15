@@ -9,14 +9,14 @@
  * with this source code in the file LICENSE.
  */
 
-namespace Eluceo\iCal\Domain\Entity;
+namespace LordSimal\iCal\Domain\Entity;
 
 use DateInterval;
 use DateTimeImmutable;
 use DateTimeInterface;
 use DateTimeZone as PhpDateTimeZone;
-use Eluceo\iCal\Domain\Enum\TimeZoneTransitionType;
-use Eluceo\iCal\Domain\ValueObject\TimeZoneTransition;
+use LordSimal\iCal\Domain\Enum\TimeZoneTransitionType;
+use LordSimal\iCal\Domain\ValueObject\TimeZoneTransition;
 
 class TimeZone
 {

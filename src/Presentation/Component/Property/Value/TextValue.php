@@ -9,9 +9,9 @@
  * with this source code in the file LICENSE.
  */
 
-namespace Eluceo\iCal\Presentation\Component\Property\Value;
+namespace LordSimal\iCal\Presentation\Component\Property\Value;
 
-use Eluceo\iCal\Presentation\Component\Property\Value;
+use LordSimal\iCal\Presentation\Component\Property\Value;
 
 /**
  * @see https://tools.ietf.org/html/rfc5545#section-3.3.11

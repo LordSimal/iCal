@@ -13,11 +13,11 @@ namespace Example;
 
 use DateInterval;
 use DateTimeImmutable;
-use Eluceo\iCal\Domain\Entity\Calendar;
-use Eluceo\iCal\Domain\Entity\Event;
-use Eluceo\iCal\Domain\ValueObject\Date;
-use Eluceo\iCal\Domain\ValueObject\SingleDay;
-use Eluceo\iCal\Presentation\Factory\CalendarFactory;
+use LordSimal\iCal\Domain\Entity\Calendar;
+use LordSimal\iCal\Domain\Entity\Event;
+use LordSimal\iCal\Domain\ValueObject\Date;
+use LordSimal\iCal\Domain\ValueObject\SingleDay;
+use LordSimal\iCal\Presentation\Factory\CalendarFactory;
 use Generator;
 
 require_once __DIR__ . '/../vendor/autoload.php';

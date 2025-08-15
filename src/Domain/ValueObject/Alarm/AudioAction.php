@@ -9,7 +9,7 @@
  * with this source code in the file LICENSE.
  */
 
-namespace Eluceo\iCal\Domain\ValueObject\Alarm;
+namespace LordSimal\iCal\Domain\ValueObject\Alarm;
 
 final class AudioAction extends Action
 {

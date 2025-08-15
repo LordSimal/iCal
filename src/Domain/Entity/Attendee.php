@@ -9,14 +9,14 @@
  * with this source code in the file LICENSE.
  */
 
-namespace Eluceo\iCal\Domain\Entity;
+namespace LordSimal\iCal\Domain\Entity;
 
-use Eluceo\iCal\Domain\Enum\CalendarUserType;
-use Eluceo\iCal\Domain\Enum\ParticipationStatus;
-use Eluceo\iCal\Domain\Enum\RoleType;
-use Eluceo\iCal\Domain\ValueObject\EmailAddress;
-use Eluceo\iCal\Domain\ValueObject\Member;
-use Eluceo\iCal\Domain\ValueObject\Uri;
+use LordSimal\iCal\Domain\Enum\CalendarUserType;
+use LordSimal\iCal\Domain\Enum\ParticipationStatus;
+use LordSimal\iCal\Domain\Enum\RoleType;
+use LordSimal\iCal\Domain\ValueObject\EmailAddress;
+use LordSimal\iCal\Domain\ValueObject\Member;
+use LordSimal\iCal\Domain\ValueObject\Uri;
 
 /**
  * @see https://datatracker.ietf.org/doc/html/rfc5545#section-3.8.4.1

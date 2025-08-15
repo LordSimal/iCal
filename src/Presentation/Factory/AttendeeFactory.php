@@ -9,19 +9,19 @@
  * with this source code in the file LICENSE.
  */
 
-namespace Eluceo\iCal\Presentation\Factory;
+namespace LordSimal\iCal\Presentation\Factory;
 
-use Eluceo\iCal\Domain\Entity\Attendee;
-use Eluceo\iCal\Domain\Enum\CalendarUserType;
-use Eluceo\iCal\Domain\Enum\ParticipationStatus;
-use Eluceo\iCal\Domain\Enum\RoleType;
-use Eluceo\iCal\Presentation\Component\Property;
-use Eluceo\iCal\Presentation\Component\Property\Parameter;
-use Eluceo\iCal\Presentation\Component\Property\Value\BooleanValue;
-use Eluceo\iCal\Presentation\Component\Property\Value\ListValue;
-use Eluceo\iCal\Presentation\Component\Property\Value\QuotedUriValue;
-use Eluceo\iCal\Presentation\Component\Property\Value\TextValue;
-use Eluceo\iCal\Presentation\Component\Property\Value\UriValue;
+use LordSimal\iCal\Domain\Entity\Attendee;
+use LordSimal\iCal\Domain\Enum\CalendarUserType;
+use LordSimal\iCal\Domain\Enum\ParticipationStatus;
+use LordSimal\iCal\Domain\Enum\RoleType;
+use LordSimal\iCal\Presentation\Component\Property;
+use LordSimal\iCal\Presentation\Component\Property\Parameter;
+use LordSimal\iCal\Presentation\Component\Property\Value\BooleanValue;
+use LordSimal\iCal\Presentation\Component\Property\Value\ListValue;
+use LordSimal\iCal\Presentation\Component\Property\Value\QuotedUriValue;
+use LordSimal\iCal\Presentation\Component\Property\Value\TextValue;
+use LordSimal\iCal\Presentation\Component\Property\Value\UriValue;
 use UnexpectedValueException;
 
 class AttendeeFactory

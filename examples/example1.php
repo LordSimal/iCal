@@ -13,18 +13,18 @@ namespace Example;
 
 use DateInterval;
 use DateTimeImmutable;
-use Eluceo\iCal\Domain\Entity\Calendar;
-use Eluceo\iCal\Domain\Entity\Event;
-use Eluceo\iCal\Domain\ValueObject\Alarm;
-use Eluceo\iCal\Domain\ValueObject\Attachment;
-use Eluceo\iCal\Domain\ValueObject\DateTime;
-use Eluceo\iCal\Domain\ValueObject\EmailAddress;
-use Eluceo\iCal\Domain\ValueObject\GeographicPosition;
-use Eluceo\iCal\Domain\ValueObject\Location;
-use Eluceo\iCal\Domain\ValueObject\Organizer;
-use Eluceo\iCal\Domain\ValueObject\TimeSpan;
-use Eluceo\iCal\Domain\ValueObject\Uri;
-use Eluceo\iCal\Presentation\Factory\CalendarFactory;
+use LordSimal\iCal\Domain\Entity\Calendar;
+use LordSimal\iCal\Domain\Entity\Event;
+use LordSimal\iCal\Domain\ValueObject\Alarm;
+use LordSimal\iCal\Domain\ValueObject\Attachment;
+use LordSimal\iCal\Domain\ValueObject\DateTime;
+use LordSimal\iCal\Domain\ValueObject\EmailAddress;
+use LordSimal\iCal\Domain\ValueObject\GeographicPosition;
+use LordSimal\iCal\Domain\ValueObject\Location;
+use LordSimal\iCal\Domain\ValueObject\Organizer;
+use LordSimal\iCal\Domain\ValueObject\TimeSpan;
+use LordSimal\iCal\Domain\ValueObject\Uri;
+use LordSimal\iCal\Presentation\Factory\CalendarFactory;
 
 require_once __DIR__ . '/../vendor/autoload.php';
 

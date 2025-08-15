@@ -9,7 +9,7 @@
  * with this source code in the file LICENSE.
  */
 
-namespace Eluceo\iCal\Domain\ValueObject;
+namespace LordSimal\iCal\Domain\ValueObject;
 
 use DateInterval;
 use InvalidArgumentException;

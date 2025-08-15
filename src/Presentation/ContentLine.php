@@ -9,7 +9,7 @@
  * with this source code in the file LICENSE.
  */
 
-namespace Eluceo\iCal\Presentation;
+namespace LordSimal\iCal\Presentation;
 
 final class ContentLine
 {

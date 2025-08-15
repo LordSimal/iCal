@@ -9,14 +9,14 @@
  * with this source code in the file LICENSE.
  */
 
-namespace Eluceo\iCal\Presentation\Factory;
+namespace LordSimal\iCal\Presentation\Factory;
 
-use Eluceo\iCal\Domain\ValueObject\DateTime;
-use Eluceo\iCal\Domain\ValueObject\PointInTime;
-use Eluceo\iCal\Domain\ValueObject\Timestamp;
-use Eluceo\iCal\Presentation\Component\Property;
-use Eluceo\iCal\Presentation\Component\Property\Value\DateTimeValue;
-use Eluceo\iCal\Presentation\Component\Property\Value\TextValue;
+use LordSimal\iCal\Domain\ValueObject\DateTime;
+use LordSimal\iCal\Domain\ValueObject\PointInTime;
+use LordSimal\iCal\Domain\ValueObject\Timestamp;
+use LordSimal\iCal\Presentation\Component\Property;
+use LordSimal\iCal\Presentation\Component\Property\Value\DateTimeValue;
+use LordSimal\iCal\Presentation\Component\Property\Value\TextValue;
 
 class DateTimeFactory
 {

@@ -9,13 +9,13 @@
  * with this source code in the file LICENSE.
  */
 
-namespace Eluceo\iCal\Presentation\Component\Property\Value;
+namespace LordSimal\iCal\Presentation\Component\Property\Value;
 
 use DateTimeZone;
-use Eluceo\iCal\Domain\ValueObject\DateTime;
-use Eluceo\iCal\Domain\ValueObject\PointInTime;
-use Eluceo\iCal\Domain\ValueObject\Timestamp;
-use Eluceo\iCal\Presentation\Component\Property\Value;
+use LordSimal\iCal\Domain\ValueObject\DateTime;
+use LordSimal\iCal\Domain\ValueObject\PointInTime;
+use LordSimal\iCal\Domain\ValueObject\Timestamp;
+use LordSimal\iCal\Presentation\Component\Property\Value;
 use InvalidArgumentException;
 
 final class DateTimeValue extends Value

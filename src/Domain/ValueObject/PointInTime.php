@@ -9,12 +9,12 @@
  * with this source code in the file LICENSE.
  */
 
-namespace Eluceo\iCal\Domain\ValueObject;
+namespace LordSimal\iCal\Domain\ValueObject;
 
 use DateInterval;
 use DateTimeImmutable as PhpDateTimeImmutable;
 use DateTimeInterface as PhpDateTimeInterface;
-use Eluceo\iCal\Util\DateTimeImmutableFactory;
+use LordSimal\iCal\Util\DateTimeImmutableFactory;
 
 /**
  * @internal

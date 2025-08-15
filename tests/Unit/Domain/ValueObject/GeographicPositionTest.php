@@ -9,9 +9,9 @@
  * with this source code in the file LICENSE.
  */
 
-namespace Eluceo\iCal\Unit\Domain\ValueObject;
+namespace LordSimal\iCal\Unit\Domain\ValueObject;
 
-use Eluceo\iCal\Domain\ValueObject\GeographicPosition;
+use LordSimal\iCal\Domain\ValueObject\GeographicPosition;
 use InvalidArgumentException;
 use PHPUnit\Framework\Attributes\DataProvider;
 use PHPUnit\Framework\TestCase;

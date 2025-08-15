@@ -9,18 +9,18 @@
  * with this source code in the file LICENSE.
  */
 
-namespace Eluceo\iCal\Test\Integration;
+namespace LordSimal\iCal\Test\Integration;
 
 use DateInterval;
 use DateTimeImmutable;
 use DateTimeZone;
-use Eluceo\iCal\Domain\Entity\Calendar;
-use Eluceo\iCal\Domain\Entity\Event;
-use Eluceo\iCal\Domain\ValueObject\Date;
-use Eluceo\iCal\Domain\ValueObject\SingleDay;
-use Eluceo\iCal\Domain\ValueObject\Timestamp;
-use Eluceo\iCal\Domain\ValueObject\UniqueIdentifier;
-use Eluceo\iCal\Presentation\Factory\CalendarFactory;
+use LordSimal\iCal\Domain\Entity\Calendar;
+use LordSimal\iCal\Domain\Entity\Event;
+use LordSimal\iCal\Domain\ValueObject\Date;
+use LordSimal\iCal\Domain\ValueObject\SingleDay;
+use LordSimal\iCal\Domain\ValueObject\Timestamp;
+use LordSimal\iCal\Domain\ValueObject\UniqueIdentifier;
+use LordSimal\iCal\Presentation\Factory\CalendarFactory;
 use Generator;
 use PHPUnit\Framework\TestCase;
 

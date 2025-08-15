@@ -9,9 +9,9 @@
  * with this source code in the file LICENSE.
  */
 
-namespace Eluceo\iCal\Domain\ValueObject\Alarm;
+namespace LordSimal\iCal\Domain\ValueObject\Alarm;
 
-use Eluceo\iCal\Domain\ValueObject\Timestamp;
+use LordSimal\iCal\Domain\ValueObject\Timestamp;
 
 final class AbsoluteDateTimeTrigger extends Trigger
 {

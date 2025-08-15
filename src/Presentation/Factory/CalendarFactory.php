@@ -9,13 +9,13 @@
  * with this source code in the file LICENSE.
  */
 
-namespace Eluceo\iCal\Presentation\Factory;
+namespace LordSimal\iCal\Presentation\Factory;
 
-use Eluceo\iCal\Domain\Entity\Calendar;
-use Eluceo\iCal\Presentation\Component;
-use Eluceo\iCal\Presentation\Component\Property;
-use Eluceo\iCal\Presentation\Component\Property\Value\DurationValue;
-use Eluceo\iCal\Presentation\Component\Property\Value\TextValue;
+use LordSimal\iCal\Domain\Entity\Calendar;
+use LordSimal\iCal\Presentation\Component;
+use LordSimal\iCal\Presentation\Component\Property;
+use LordSimal\iCal\Presentation\Component\Property\Value\DurationValue;
+use LordSimal\iCal\Presentation\Component\Property\Value\TextValue;
 use Generator;
 
 class CalendarFactory

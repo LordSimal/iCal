@@ -9,10 +9,10 @@
  * with this source code in the file LICENSE.
  */
 
-namespace Eluceo\iCal\Presentation\Component\Property\Value;
+namespace LordSimal\iCal\Presentation\Component\Property\Value;
 
-use Eluceo\iCal\Domain\ValueObject\Date;
-use Eluceo\iCal\Presentation\Component\Property\Value;
+use LordSimal\iCal\Domain\ValueObject\Date;
+use LordSimal\iCal\Presentation\Component\Property\Value;
 
 final class DateValue extends Value
 {

@@ -9,7 +9,7 @@
  * with this source code in the file LICENSE.
  */
 
-namespace Eluceo\iCal\Util;
+namespace LordSimal\iCal\Util;
 
 use DateTime;
 use DateTimeImmutable;

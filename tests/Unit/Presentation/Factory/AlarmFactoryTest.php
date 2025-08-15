@@ -9,17 +9,17 @@
  * with this source code in the file LICENSE.
  */
 
-namespace Eluceo\iCal\Test\Unit\Presentation\Factory;
+namespace LordSimal\iCal\Test\Unit\Presentation\Factory;
 
 use DateInterval;
 use DateTimeImmutable as PhpDateTimeImmutable;
-use Eluceo\iCal\Domain\ValueObject\Alarm;
-use Eluceo\iCal\Domain\ValueObject\Alarm\AbsoluteDateTimeTrigger;
-use Eluceo\iCal\Domain\ValueObject\Alarm\AudioAction;
-use Eluceo\iCal\Domain\ValueObject\Alarm\EmailAction;
-use Eluceo\iCal\Domain\ValueObject\DateTime;
-use Eluceo\iCal\Presentation\ContentLine;
-use Eluceo\iCal\Presentation\Factory\AlarmFactory;
+use LordSimal\iCal\Domain\ValueObject\Alarm;
+use LordSimal\iCal\Domain\ValueObject\Alarm\AbsoluteDateTimeTrigger;
+use LordSimal\iCal\Domain\ValueObject\Alarm\AudioAction;
+use LordSimal\iCal\Domain\ValueObject\Alarm\EmailAction;
+use LordSimal\iCal\Domain\ValueObject\DateTime;
+use LordSimal\iCal\Presentation\ContentLine;
+use LordSimal\iCal\Presentation\Factory\AlarmFactory;
 use PHPUnit\Framework\TestCase;
 
 class AlarmFactoryTest extends TestCase

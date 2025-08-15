@@ -9,10 +9,10 @@
  * with this source code in the file LICENSE.
  */
 
-namespace Eluceo\iCal\Unit\Domain\Entity;
+namespace LordSimal\iCal\Unit\Domain\Entity;
 
 use DateInterval;
-use Eluceo\iCal\Domain\Entity\Calendar;
+use LordSimal\iCal\Domain\Entity\Calendar;
 use PHPUnit\Framework\Attributes\DataProvider;
 use PHPUnit\Framework\TestCase;
 
@@ -27,8 +27,8 @@ class CalendarTest extends TestCase
     }
 
     /**
-     * @covers \Eluceo\iCal\Domain\Entity\Calendar::getPublishedTTL
-     * @covers \Eluceo\iCal\Domain\Entity\Calendar::setPublishedTTL
+     * @covers \LordSimal\iCal\Domain\Entity\Calendar::getPublishedTTL
+     * @covers \LordSimal\iCal\Domain\Entity\Calendar::setPublishedTTL
      *
      * @param ?DateInterval $ttl
      */

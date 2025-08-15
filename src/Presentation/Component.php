@@ -9,9 +9,9 @@
  * with this source code in the file LICENSE.
  */
 
-namespace Eluceo\iCal\Presentation;
+namespace LordSimal\iCal\Presentation;
 
-use Eluceo\iCal\Presentation\Component\Property;
+use LordSimal\iCal\Presentation\Component\Property;
 use Generator;
 use IteratorAggregate;
 use Traversable;

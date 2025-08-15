@@ -9,7 +9,7 @@
  * with this source code in the file LICENSE.
  */
 
-namespace Eluceo\iCal\Domain\ValueObject;
+namespace LordSimal\iCal\Domain\ValueObject;
 
 /**
  * @see https://tools.ietf.org/html/rfc5545#section-3.8.4.7

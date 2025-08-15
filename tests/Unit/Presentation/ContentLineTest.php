@@ -9,9 +9,9 @@
  * with this source code in the file LICENSE.
  */
 
-namespace Eluceo\iCal\Test\Unit\Presentation;
+namespace LordSimal\iCal\Test\Unit\Presentation;
 
-use Eluceo\iCal\Presentation\ContentLine;
+use LordSimal\iCal\Presentation\ContentLine;
 use PHPUnit\Framework\TestCase;
 
 class ContentLineTest extends TestCase

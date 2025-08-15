@@ -9,11 +9,11 @@
  * with this source code in the file LICENSE.
  */
 
-namespace Eluceo\iCal\Domain\ValueObject;
+namespace LordSimal\iCal\Domain\ValueObject;
 
 use DateInterval;
-use Eluceo\iCal\Domain\ValueObject\Alarm\Action;
-use Eluceo\iCal\Domain\ValueObject\Alarm\Trigger;
+use LordSimal\iCal\Domain\ValueObject\Alarm\Action;
+use LordSimal\iCal\Domain\ValueObject\Alarm\Trigger;
 
 class Alarm
 {

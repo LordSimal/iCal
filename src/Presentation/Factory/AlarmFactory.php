@@ -9,23 +9,23 @@
  * with this source code in the file LICENSE.
  */
 
-namespace Eluceo\iCal\Presentation\Factory;
+namespace LordSimal\iCal\Presentation\Factory;
 
-use Eluceo\iCal\Domain\ValueObject\Alarm;
-use Eluceo\iCal\Domain\ValueObject\Alarm\AbsoluteDateTimeTrigger;
-use Eluceo\iCal\Domain\ValueObject\Alarm\Action;
-use Eluceo\iCal\Domain\ValueObject\Alarm\AudioAction;
-use Eluceo\iCal\Domain\ValueObject\Alarm\DisplayAction;
-use Eluceo\iCal\Domain\ValueObject\Alarm\EmailAction;
-use Eluceo\iCal\Domain\ValueObject\Alarm\RelativeTrigger;
-use Eluceo\iCal\Domain\ValueObject\Alarm\Trigger;
-use Eluceo\iCal\Presentation\Component;
-use Eluceo\iCal\Presentation\Component\Property;
-use Eluceo\iCal\Presentation\Component\Property\Parameter;
-use Eluceo\iCal\Presentation\Component\Property\Value\DateTimeValue;
-use Eluceo\iCal\Presentation\Component\Property\Value\DurationValue;
-use Eluceo\iCal\Presentation\Component\Property\Value\IntegerValue;
-use Eluceo\iCal\Presentation\Component\Property\Value\TextValue;
+use LordSimal\iCal\Domain\ValueObject\Alarm;
+use LordSimal\iCal\Domain\ValueObject\Alarm\AbsoluteDateTimeTrigger;
+use LordSimal\iCal\Domain\ValueObject\Alarm\Action;
+use LordSimal\iCal\Domain\ValueObject\Alarm\AudioAction;
+use LordSimal\iCal\Domain\ValueObject\Alarm\DisplayAction;
+use LordSimal\iCal\Domain\ValueObject\Alarm\EmailAction;
+use LordSimal\iCal\Domain\ValueObject\Alarm\RelativeTrigger;
+use LordSimal\iCal\Domain\ValueObject\Alarm\Trigger;
+use LordSimal\iCal\Presentation\Component;
+use LordSimal\iCal\Presentation\Component\Property;
+use LordSimal\iCal\Presentation\Component\Property\Parameter;
+use LordSimal\iCal\Presentation\Component\Property\Value\DateTimeValue;
+use LordSimal\iCal\Presentation\Component\Property\Value\DurationValue;
+use LordSimal\iCal\Presentation\Component\Property\Value\IntegerValue;
+use LordSimal\iCal\Presentation\Component\Property\Value\TextValue;
 use Generator;
 
 /**

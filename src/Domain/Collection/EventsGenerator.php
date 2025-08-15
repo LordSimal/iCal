@@ -9,10 +9,10 @@
  * with this source code in the file LICENSE.
  */
 
-namespace Eluceo\iCal\Domain\Collection;
+namespace LordSimal\iCal\Domain\Collection;
 
 use BadMethodCallException;
-use Eluceo\iCal\Domain\Entity\Event;
+use LordSimal\iCal\Domain\Entity\Event;
 use Iterator;
 
 final class EventsGenerator extends Events

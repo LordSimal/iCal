@@ -9,10 +9,10 @@
  * with this source code in the file LICENSE.
  */
 
-namespace Eluceo\iCal\Presentation\Component;
+namespace LordSimal\iCal\Presentation\Component;
 
-use Eluceo\iCal\Presentation\Component\Property\Parameter;
-use Eluceo\iCal\Presentation\Component\Property\Value;
+use LordSimal\iCal\Presentation\Component\Property\Parameter;
+use LordSimal\iCal\Presentation\Component\Property\Value;
 
 class Property
 {

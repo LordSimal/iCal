@@ -9,16 +9,16 @@
  * with this source code in the file LICENSE.
  */
 
-namespace Eluceo\iCal\Presentation\Factory;
+namespace LordSimal\iCal\Presentation\Factory;
 
-use Eluceo\iCal\Domain\Entity\TimeZone;
-use Eluceo\iCal\Domain\Enum\TimeZoneTransitionType;
-use Eluceo\iCal\Domain\ValueObject\DateTime;
-use Eluceo\iCal\Domain\ValueObject\TimeZoneTransition;
-use Eluceo\iCal\Presentation\Component;
-use Eluceo\iCal\Presentation\Component\Property\Value\DateTimeValue;
-use Eluceo\iCal\Presentation\Component\Property\Value\TextValue;
-use Eluceo\iCal\Presentation\Component\Property\Value\UtcOffsetValue;
+use LordSimal\iCal\Domain\Entity\TimeZone;
+use LordSimal\iCal\Domain\Enum\TimeZoneTransitionType;
+use LordSimal\iCal\Domain\ValueObject\DateTime;
+use LordSimal\iCal\Domain\ValueObject\TimeZoneTransition;
+use LordSimal\iCal\Presentation\Component;
+use LordSimal\iCal\Presentation\Component\Property\Value\DateTimeValue;
+use LordSimal\iCal\Presentation\Component\Property\Value\TextValue;
+use LordSimal\iCal\Presentation\Component\Property\Value\UtcOffsetValue;
 use Generator;
 
 class TimeZoneFactory

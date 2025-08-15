@@ -8,6 +8,11 @@
 [![Monthly Downloads](https://poser.pugx.org/eluceo/ical/d/monthly)](https://packagist.org/packages/eluceo/ical)
 [![Infection MSI](https://badge.stryker-mutator.io/github.com/markuspoerschke/iCal/2.x)](https://infection.github.io)
 
+> [!IMPORTANT]  
+> This is a fork of the original [markuspoerschke/iCal](https://github.com/markuspoerschke/iCal) package.
+> It contains various fixes related to PHP 8.4 deprecations.
+> The namespace changed from `Eluceo\iCal` to `LordSimal\iCal`.
+
 This package offers an abstraction layer for creating iCalendars files.
 By using this PHP package, you can create `*.ics` files without the knowledge of the underling format.
 The output itself will follow [RFC 5545](https://www.ietf.org/rfc/rfc5545.html) as good as possible.
@@ -63,19 +68,19 @@ You will learn how to create an event domain object, how to add it to a calendar
 #### 1. Create an event domain entity
 
 ```PHP
-$event = new \Eluceo\iCal\Domain\Entity\Event();
+$event = new \LordSimal\iCal\Domain\Entity\Event();
 ```
 
 #### 2. Create a calendar domain entity
 
 ```PHP
-$calendar = new \Eluceo\iCal\Domain\Entity\Calendar([$event]);
+$calendar = new \LordSimal\iCal\Domain\Entity\Calendar([$event]);
 ```
 
 #### 3. Transform calendar domain object into a presentation object
 
 ```PHP
-$iCalendarComponent = (new \Eluceo\iCal\Presentation\Factory\CalendarFactory())->createCalendar($calendar);
+$iCalendarComponent = (new \LordSimal\iCal\Presentation\Factory\CalendarFactory())->createCalendar($calendar);
 ```
 
 #### 4. a) Save to file
@@ -104,22 +109,22 @@ More examples can be found in the [examples/](examples) folder.
 require_once __DIR__ . '/../vendor/autoload.php';
 
 // 1. Create Event domain entity
-$event = (new Eluceo\iCal\Domain\Entity\Event())
+$event = (new LordSimal\iCal\Domain\Entity\Event())
     ->setSummary('Christmas Eve')
     ->setDescription('Lorem Ipsum Dolor...')
     ->setOccurrence(
-        new Eluceo\iCal\Domain\ValueObject\SingleDay(
-            new Eluceo\iCal\Domain\ValueObject\Date(
+        new LordSimal\iCal\Domain\ValueObject\SingleDay(
+            new LordSimal\iCal\Domain\ValueObject\Date(
                 \DateTimeImmutable::createFromFormat('Y-m-d', '2030-12-24')
             )
         )
     );
 
 // 2. Create Calendar domain entity
-$calendar = new Eluceo\iCal\Domain\Entity\Calendar([$event]);
+$calendar = new LordSimal\iCal\Domain\Entity\Calendar([$event]);
 
 // 3. Transform domain entity into an iCalendar component
-$componentFactory = new Eluceo\iCal\Presentation\Factory\CalendarFactory();
+$componentFactory = new LordSimal\iCal\Presentation\Factory\CalendarFactory();
 $calendarComponent = $componentFactory->createCalendar($calendar);
 
 // 4. Set headers

@@ -9,12 +9,12 @@
  * with this source code in the file LICENSE.
  */
 
-namespace Eluceo\iCal\Domain\Entity;
+namespace LordSimal\iCal\Domain\Entity;
 
 use DateInterval;
-use Eluceo\iCal\Domain\Collection\Events;
-use Eluceo\iCal\Domain\Collection\EventsArray;
-use Eluceo\iCal\Domain\Collection\EventsGenerator;
+use LordSimal\iCal\Domain\Collection\Events;
+use LordSimal\iCal\Domain\Collection\EventsArray;
+use LordSimal\iCal\Domain\Collection\EventsGenerator;
 use InvalidArgumentException;
 use Iterator;
 

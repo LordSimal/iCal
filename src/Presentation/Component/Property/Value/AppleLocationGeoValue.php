@@ -9,7 +9,7 @@
  * with this source code in the file LICENSE.
  */
 
-namespace Eluceo\iCal\Presentation\Component\Property\Value;
+namespace LordSimal\iCal\Presentation\Component\Property\Value;
 
 final class AppleLocationGeoValue extends GeoValue
 {

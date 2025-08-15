@@ -9,11 +9,11 @@
  * with this source code in the file LICENSE.
  */
 
-namespace Eluceo\iCal\Presentation\Component\Property\Value;
+namespace LordSimal\iCal\Presentation\Component\Property\Value;
 
 use DateInterval;
 use DateTimeImmutable;
-use Eluceo\iCal\Presentation\Component\Property\Value;
+use LordSimal\iCal\Presentation\Component\Property\Value;
 
 final class DurationValue extends Value
 {

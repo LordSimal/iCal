@@ -9,12 +9,12 @@
  * with this source code in the file LICENSE.
  */
 
-namespace Eluceo\iCal\Test\Unit\Presentation;
+namespace LordSimal\iCal\Test\Unit\Presentation;
 
-use Eluceo\iCal\Presentation\Component;
-use Eluceo\iCal\Presentation\Component\Property;
-use Eluceo\iCal\Presentation\Component\Property\Value\TextValue;
-use Eluceo\iCal\Presentation\ContentLine;
+use LordSimal\iCal\Presentation\Component;
+use LordSimal\iCal\Presentation\Component\Property;
+use LordSimal\iCal\Presentation\Component\Property\Value\TextValue;
+use LordSimal\iCal\Presentation\ContentLine;
 use PHPUnit\Framework\TestCase;
 
 class ComponentTest extends TestCase

@@ -9,12 +9,12 @@
  * with this source code in the file LICENSE.
  */
 
-namespace Eluceo\iCal\Domain\ValueObject;
+namespace LordSimal\iCal\Domain\ValueObject;
 
 use DateTimeImmutable;
 use DateTimeInterface;
-use Eluceo\iCal\Domain\Enum\TimeZoneTransitionType;
-use Eluceo\iCal\Util\DateTimeImmutableFactory;
+use LordSimal\iCal\Domain\Enum\TimeZoneTransitionType;
+use LordSimal\iCal\Util\DateTimeImmutableFactory;
 
 class TimeZoneTransition
 {

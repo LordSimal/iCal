@@ -12,11 +12,11 @@
 namespace Presentation\Factory;
 
 use DateTimeImmutable;
-use Eluceo\iCal\Domain\Entity\TimeZone;
-use Eluceo\iCal\Domain\Enum\TimeZoneTransitionType;
-use Eluceo\iCal\Domain\ValueObject\TimeZoneTransition;
-use Eluceo\iCal\Presentation\ContentLine;
-use Eluceo\iCal\Presentation\Factory\TimeZoneFactory;
+use LordSimal\iCal\Domain\Entity\TimeZone;
+use LordSimal\iCal\Domain\Enum\TimeZoneTransitionType;
+use LordSimal\iCal\Domain\ValueObject\TimeZoneTransition;
+use LordSimal\iCal\Presentation\ContentLine;
+use LordSimal\iCal\Presentation\Factory\TimeZoneFactory;
 use PHPUnit\Framework\TestCase;
 
 class TimeZoneFactoryTest extends TestCase
