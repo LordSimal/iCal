@@ -30,7 +30,6 @@
     },
     "require-dev": {
         "ergebnis/composer-normalize": "^2.23.1",
-        "friendsofphp/php-cs-fixer": "^3.75",
         "phpunit/phpunit": "^10.5 || ^11.0 || ^12.0"
     },
     "conflict": {

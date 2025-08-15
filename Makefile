@@ -1,7 +1,6 @@
 -include Makefile.local
 
 export XDEBUG_MODE=coverage
-export PHP_CS_FIXER_IGNORE_ENV=1
 
 MAKEFLAGS += --warn-undefined-variables
 SHELL := bash
@@ -13,16 +12,11 @@ help:
 	@echo 'Available targets'
 	@echo '  clean               Removes temporary build artifacts like'
 	@echo '  website             Builds the documentation website'
-	@echo '  fix                 Fixes composer.json and code style'
 	@echo '  test                Execute all tests'
 	@echo '  vendor              Installs composer vendor'
 
 .PHONY: test
-test: test-validate-composer test-code-style test-phpunit test-examples test-composer-normalize
-
-.PHONY: test-code-style
-test-code-style: vendor
-	php-cs-fixer fix --dry-run --diff
+test: test-validate-composer test-phpunit test-examples test-composer-normalize
 
 .PHONY: test-phpunit
 test-phpunit: vendor
@@ -48,12 +42,7 @@ vendor: composer.json composer.lock
 	composer install --no-interaction
 
 .PHONY: fix
-fix: fix-code-style fix-composer
-
-.PHONY: fix-code-style
-fix-code-style: vendor
-fix-code-style:
-	php-cs-fixer -- fix
+fix: fix-composer
 
 .PHONY: fix-composer
 fix-composer: vendor
@@ -70,5 +59,5 @@ website:
 
 .PHONY: clean
 clean:
-	rm -rf vendor node_modules .phpunit.result.cache .php-cs-fixer.cache build
+	rm -rf vendor node_modules .phpunit.result.cache build
 	cd website && $(MAKE) clean
