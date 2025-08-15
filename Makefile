@@ -16,7 +16,6 @@ help:
 	@echo '  clean               Removes temporary build artifacts like'
 	@echo '  website             Builds the documentation website'
 	@echo '  fix                 Fixes composer.json and code style'
-	@echo '  fix-prettier        Fix code style of non PHP files (not included in "fix" target)'
 	@echo '  test                Execute all tests'
 	@echo '  vendor              Installs composer vendor'
 
@@ -61,11 +60,6 @@ test-phpmd: vendor
 test-phpmd:
 	phpmd ./src text rulesets.xml
 
-.PHONY: test-prettier
-test-prettier:
-	yarn
-	npx prettier --check .
-
 vendor: composer.json composer.lock
 	composer install --no-interaction
 
@@ -82,10 +76,6 @@ fix-composer: vendor
 fix-composer:
 	composer normalize --no-update-lock
 	composer update nothing
-
-.PHONY: fix-prettier
-fix-prettier: node_modules
-	npx prettier --write .
 
 node_modules: yarn.lock package.json
 	yarn
