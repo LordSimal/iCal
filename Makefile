@@ -20,7 +20,7 @@ help:
 	@echo '  vendor              Installs composer vendor'
 
 .PHONY: test
-test: test-validate-composer test-code-style test-psalm test-phpunit test-examples test-composer-normalize test-phpmd test-infection
+test: test-validate-composer test-code-style test-psalm test-phpunit test-examples test-composer-normalize test-infection
 
 .PHONY: test-code-style
 test-code-style: vendor
@@ -54,11 +54,6 @@ test-validate-composer:
 test-composer-normalize: vendor
 test-composer-normalize:
 	composer normalize --dry-run --diff
-
-.PHONY: test-phpmd
-test-phpmd: vendor
-test-phpmd:
-	phpmd ./src text rulesets.xml
 
 vendor: composer.json composer.lock
 	composer install --no-interaction

@@ -77,9 +77,6 @@ class EventFactory
 
     /**
      * @return Generator<Property>
-     *
-     * @SuppressWarnings(PHPMD.NPathComplexity)
-     * @SuppressWarnings(PHPMD.CyclomaticComplexity)
      */
     protected function getProperties(Event $event): Generator
     {
