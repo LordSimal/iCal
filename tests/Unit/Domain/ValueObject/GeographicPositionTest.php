@@ -11,8 +11,8 @@
 
 namespace LordSimal\iCal\Unit\Domain\ValueObject;
 
-use LordSimal\iCal\Domain\ValueObject\GeographicPosition;
 use InvalidArgumentException;
+use LordSimal\iCal\Domain\ValueObject\GeographicPosition;
 use PHPUnit\Framework\Attributes\DataProvider;
 use PHPUnit\Framework\TestCase;
 

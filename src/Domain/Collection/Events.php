@@ -11,9 +11,9 @@
 
 namespace LordSimal\iCal\Domain\Collection;
 
-use LordSimal\iCal\Domain\Entity\Event;
 use Iterator;
 use IteratorAggregate;
+use LordSimal\iCal\Domain\Entity\Event;
 
 /**
  * @implements IteratorAggregate<Event>

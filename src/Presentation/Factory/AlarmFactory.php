@@ -11,6 +11,7 @@
 
 namespace LordSimal\iCal\Presentation\Factory;
 
+use Generator;
 use LordSimal\iCal\Domain\ValueObject\Alarm;
 use LordSimal\iCal\Domain\ValueObject\Alarm\AbsoluteDateTimeTrigger;
 use LordSimal\iCal\Domain\ValueObject\Alarm\Action;
@@ -26,7 +27,6 @@ use LordSimal\iCal\Presentation\Component\Property\Value\DateTimeValue;
 use LordSimal\iCal\Presentation\Component\Property\Value\DurationValue;
 use LordSimal\iCal\Presentation\Component\Property\Value\IntegerValue;
 use LordSimal\iCal\Presentation\Component\Property\Value\TextValue;
-use Generator;
 
 /**
  * @SuppressWarnings("CouplingBetweenObjects")

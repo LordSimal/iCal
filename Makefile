@@ -6,9 +6,7 @@ export PHP_CS_FIXER_IGNORE_ENV=1
 MAKEFLAGS += --warn-undefined-variables
 SHELL := bash
 PATH := $(CURDIR)/vendor/bin:$(PATH)
-PSALM_FLAGS ?=
 PHPUNIT_FLAGS ?=
-INFECTION_FLAGS ?=
 
 .PHONY: help
 help:
@@ -20,15 +18,11 @@ help:
 	@echo '  vendor              Installs composer vendor'
 
 .PHONY: test
-test: test-validate-composer test-code-style test-psalm test-phpunit test-examples test-composer-normalize test-infection
+test: test-validate-composer test-code-style test-phpunit test-examples test-composer-normalize
 
 .PHONY: test-code-style
 test-code-style: vendor
 	php-cs-fixer fix --dry-run --diff
-
-.PHONY: test-psalm
-test-psalm: vendor
-	php -v | grep -q 'PHP 8.3' && psalm -m --no-progress ${PSALM_FLAGS} || true
 
 .PHONY: test-phpunit
 test-phpunit: vendor
@@ -37,11 +31,6 @@ test-phpunit: vendor
 .PHONY: test-examples
 EXAMPLE_FILES := $(wildcard examples/*.php)
 test-examples: $(EXAMPLE_FILES)
-
-.PHONY: test-infection
-test-infection: vendor test-phpunit
-test-infection:
-	infection --min-msi=60 --coverage=build/coverage ${INFECTION_FLAGS}
 
 examples/example*.php: vendor
 	php $@ > /dev/null

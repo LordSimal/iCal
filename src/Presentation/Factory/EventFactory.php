@@ -12,6 +12,7 @@
 namespace LordSimal\iCal\Presentation\Factory;
 
 use DateInterval;
+use Generator;
 use LordSimal\iCal\Domain\Collection\Events;
 use LordSimal\iCal\Domain\Entity\Event;
 use LordSimal\iCal\Domain\Enum\EventStatus;
@@ -34,7 +35,6 @@ use LordSimal\iCal\Presentation\Component\Property\Value\IntegerValue;
 use LordSimal\iCal\Presentation\Component\Property\Value\ListValue;
 use LordSimal\iCal\Presentation\Component\Property\Value\TextValue;
 use LordSimal\iCal\Presentation\Component\Property\Value\UriValue;
-use Generator;
 use UnexpectedValueException;
 
 /**

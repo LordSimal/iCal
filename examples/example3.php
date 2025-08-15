@@ -13,12 +13,12 @@ namespace Example;
 
 use DateInterval;
 use DateTimeImmutable;
+use Generator;
 use LordSimal\iCal\Domain\Entity\Calendar;
 use LordSimal\iCal\Domain\Entity\Event;
 use LordSimal\iCal\Domain\ValueObject\Date;
 use LordSimal\iCal\Domain\ValueObject\SingleDay;
 use LordSimal\iCal\Presentation\Factory\CalendarFactory;
-use Generator;
 
 require_once __DIR__ . '/../vendor/autoload.php';
 

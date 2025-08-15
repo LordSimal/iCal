@@ -12,11 +12,11 @@
 namespace LordSimal\iCal\Domain\Entity;
 
 use DateInterval;
+use InvalidArgumentException;
+use Iterator;
 use LordSimal\iCal\Domain\Collection\Events;
 use LordSimal\iCal\Domain\Collection\EventsArray;
 use LordSimal\iCal\Domain\Collection\EventsGenerator;
-use InvalidArgumentException;
-use Iterator;
 
 class Calendar
 {

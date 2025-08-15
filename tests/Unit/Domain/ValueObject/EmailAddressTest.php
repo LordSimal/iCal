@@ -11,8 +11,8 @@
 
 namespace LordSimal\iCal\Unit\Domain\ValueObject;
 
-use LordSimal\iCal\Domain\ValueObject\EmailAddress;
 use InvalidArgumentException;
+use LordSimal\iCal\Domain\ValueObject\EmailAddress;
 use PHPUnit\Framework\TestCase;
 
 class EmailAddressTest extends TestCase

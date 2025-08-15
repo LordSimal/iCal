@@ -11,6 +11,7 @@
 
 namespace LordSimal\iCal\Presentation\Factory;
 
+use Generator;
 use LordSimal\iCal\Domain\Entity\TimeZone;
 use LordSimal\iCal\Domain\Enum\TimeZoneTransitionType;
 use LordSimal\iCal\Domain\ValueObject\DateTime;
@@ -19,7 +20,6 @@ use LordSimal\iCal\Presentation\Component;
 use LordSimal\iCal\Presentation\Component\Property\Value\DateTimeValue;
 use LordSimal\iCal\Presentation\Component\Property\Value\TextValue;
 use LordSimal\iCal\Presentation\Component\Property\Value\UtcOffsetValue;
-use Generator;
 
 class TimeZoneFactory
 {

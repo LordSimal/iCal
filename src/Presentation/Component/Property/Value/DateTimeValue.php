@@ -12,11 +12,11 @@
 namespace LordSimal\iCal\Presentation\Component\Property\Value;
 
 use DateTimeZone;
+use InvalidArgumentException;
 use LordSimal\iCal\Domain\ValueObject\DateTime;
 use LordSimal\iCal\Domain\ValueObject\PointInTime;
 use LordSimal\iCal\Domain\ValueObject\Timestamp;
 use LordSimal\iCal\Presentation\Component\Property\Value;
-use InvalidArgumentException;
 
 final class DateTimeValue extends Value
 {

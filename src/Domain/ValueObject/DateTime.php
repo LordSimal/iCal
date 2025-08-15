@@ -24,10 +24,6 @@ final class DateTime extends Timestamp
         $this->applyTimeZone = $applyTimeZone;
     }
 
-    /**
-     * @psalm-suppress InvalidNullableReturnType
-     * @psalm-suppress NullableReturnStatement
-     */
     public function getDateTimeZone(): PhpDateTimeZone
     {
         return $this->getDateTime()->getTimezone();

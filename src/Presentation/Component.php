@@ -11,9 +11,9 @@
 
 namespace LordSimal\iCal\Presentation;
 
-use LordSimal\iCal\Presentation\Component\Property;
 use Generator;
 use IteratorAggregate;
+use LordSimal\iCal\Presentation\Component\Property;
 use Traversable;
 
 /**

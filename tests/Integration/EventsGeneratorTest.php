@@ -14,6 +14,7 @@ namespace LordSimal\iCal\Test\Integration;
 use DateInterval;
 use DateTimeImmutable;
 use DateTimeZone;
+use Generator;
 use LordSimal\iCal\Domain\Entity\Calendar;
 use LordSimal\iCal\Domain\Entity\Event;
 use LordSimal\iCal\Domain\ValueObject\Date;
@@ -21,7 +22,6 @@ use LordSimal\iCal\Domain\ValueObject\SingleDay;
 use LordSimal\iCal\Domain\ValueObject\Timestamp;
 use LordSimal\iCal\Domain\ValueObject\UniqueIdentifier;
 use LordSimal\iCal\Presentation\Factory\CalendarFactory;
-use Generator;
 use PHPUnit\Framework\TestCase;
 
 class EventsGeneratorTest extends TestCase

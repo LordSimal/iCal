@@ -12,8 +12,8 @@
 namespace LordSimal\iCal\Domain\Collection;
 
 use ArrayIterator;
-use LordSimal\iCal\Domain\Entity\Event;
 use Iterator;
+use LordSimal\iCal\Domain\Entity\Event;
 
 final class EventsArray extends Events
 {

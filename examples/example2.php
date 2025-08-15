@@ -11,6 +11,7 @@
 
 namespace Example;
 
+use Generator;
 use LordSimal\iCal\Domain\Entity\Calendar;
 use LordSimal\iCal\Domain\Entity\Event;
 use LordSimal\iCal\Presentation\Component;
@@ -18,7 +19,6 @@ use LordSimal\iCal\Presentation\Component\Property;
 use LordSimal\iCal\Presentation\Component\Property\Value\TextValue;
 use LordSimal\iCal\Presentation\Factory\CalendarFactory;
 use LordSimal\iCal\Presentation\Factory\EventFactory;
-use Generator;
 
 require_once __DIR__ . '/../vendor/autoload.php';
 

@@ -11,12 +11,12 @@
 
 namespace LordSimal\iCal\Presentation\Factory;
 
+use Generator;
 use LordSimal\iCal\Domain\Entity\Calendar;
 use LordSimal\iCal\Presentation\Component;
 use LordSimal\iCal\Presentation\Component\Property;
 use LordSimal\iCal\Presentation\Component\Property\Value\DurationValue;
 use LordSimal\iCal\Presentation\Component\Property\Value\TextValue;
-use Generator;
 
 class CalendarFactory
 {

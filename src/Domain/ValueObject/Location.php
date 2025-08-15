@@ -36,10 +36,6 @@ final class Location
         return $this->geographicPosition !== null;
     }
 
-    /**
-     * @psalm-suppress InvalidNullableReturnType
-     * @psalm-suppress NullableReturnStatement
-     */
     public function getGeographicPosition(): GeographicPosition
     {
         return $this->geographicPosition;

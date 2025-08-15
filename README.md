@@ -6,7 +6,6 @@
 [![License](https://poser.pugx.org/eluceo/ical/license)](https://packagist.org/packages/eluceo/ical)
 [![Latest Stable Version](https://poser.pugx.org/eluceo/ical/v/stable)](https://packagist.org/packages/eluceo/ical)
 [![Monthly Downloads](https://poser.pugx.org/eluceo/ical/d/monthly)](https://packagist.org/packages/eluceo/ical)
-[![Infection MSI](https://badge.stryker-mutator.io/github.com/markuspoerschke/iCal/2.x)](https://infection.github.io)
 
 > [!IMPORTANT]  
 > This is a fork of the original [markuspoerschke/iCal](https://github.com/markuspoerschke/iCal) package.
